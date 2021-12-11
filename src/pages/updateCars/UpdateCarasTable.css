@@ -1,0 +1,67 @@
+table {
+	border-collapse: collapse;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin: 2rem auto;
+	width: 80%;
+}
+
+table td {
+	padding: 10px 40px;
+}
+
+table tbody td {
+	color: #636363;
+	border: 1px solid #dddfe1;
+}
+table tbody tr {
+	background-color: #a2cbf5;
+}
+table tbody tr:nth-child(odd) {
+	background-color: #ffffff;
+}
+table thead {
+	background: rgb(56, 54, 54);
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+	height: 3rem;
+}
+select {
+	width: 96%;
+	padding: 5px;
+	border-radius: 5px;
+	border: none;
+}
+.button {
+	margin-top: 1.5rem;
+	width: 10%;
+	margin-right: 3rem;
+}
+.button button {
+	border-radius: 5px;
+	padding: 10px;
+	color: rgb(59, 58, 58);
+	margin: 5px;
+	cursor: pointer;
+	border: 2px solid orange;
+}
+.addCars {
+	display: flex;
+	width: 83%;
+	margin: 0 auto;
+}
+.change {
+	display: flex;
+	align-items: center;
+}
+.change input {
+	height: 1.3rem;
+	border: 1px solid gray;
+	margin-top: 0.8rem;
+	width: 100px;
+}
+.delButton {
+	background: none;
+	border: none;
+	cursor: pointer;
+}

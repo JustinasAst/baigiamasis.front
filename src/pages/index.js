@@ -1,0 +1,10 @@
+export { default as Register } from './register/Register';
+export { default as Login } from './login/Login';
+export { default as Home } from './home/Home';
+export { default as Button } from '../component/button/Button';
+export { default as Notification } from '../component/notification/Notification';
+export { default as Header } from '../component/header/Header';
+export { default as UpdateCars } from './updateCars/UpdateCars';
+export { default as NewStar } from '../component/star/Star';
+export { default as FilterField } from '../component/filterField/FilterField';
+export { default as AddCars } from '../pages/addCars/AddCars';

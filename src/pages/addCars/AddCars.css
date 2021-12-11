@@ -1,0 +1,57 @@
+.form {
+	width: 80%;
+	border: none;
+	border-radius: 10px;
+	background: #c3ccdb;
+	padding: 1rem;
+	margin: 0 auto;
+	margin-top: 1rem;
+}
+
+input {
+	padding: 0.3rem;
+	width: 95%;
+	border-radius: 5px;
+	border: none;
+	margin: 1rem auto;
+}
+
+.fotoUpload[type='file']::file-selector-button {
+	border: none;
+	padding: 0.4em 0.8em;
+	border-radius: 0.2em;
+	background-color: #a29bfe;
+	transition: 1s;
+	color: white;
+}
+
+.fotoUpload[type='file']::file-selector-button:hover {
+	background-color: #81ecec;
+}
+.fotoUpload {
+	margin: 0 auto;
+}
+
+.inputbox textarea {
+	background: rgb(255, 254, 253);
+	border: none;
+	width: 15;
+	width: 95%;
+	margin-top: 1rem;
+}
+
+.inputbox select {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+.logout {
+	display: flex;
+	margin-right: 2rem;
+}
+.upload {
+	margin: 2rem auto;
+	border: 2px solid rgb(139, 136, 136);
+	border-radius: 5px;
+	padding: 1rem;
+	width: 93%;
+}

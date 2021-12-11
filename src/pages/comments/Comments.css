@@ -1,0 +1,80 @@
+.commentBox {
+	background: white;
+	width: 55%;
+	margin: 0 auto;
+	padding: 0.1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border-radius: 10px;
+	color: rgb(233, 225, 225);
+}
+.comment {
+	background: wheat;
+	padding: 1rem;
+	width: 50%;
+	margin: 1rem auto;
+	border: 3px solid #eb9131;
+	border-radius: 5px;
+}
+.comment label {
+	font-size: large;
+	color: rgb(66, 63, 63);
+	display: flex;
+
+	margin-top: 1rem;
+	margin-bottom: 0.1rem;
+}
+.comment select {
+	border-bottom: 2px solid black;
+	border: none;
+	text-align: center;
+	width: 100%;
+	margin-top: 0.5rem;
+}
+
+.comment textarea {
+	background: rgb(255, 254, 253);
+	border: none;
+	width: 15;
+	width: 100%;
+	margin-top: 1rem;
+}
+.textarea {
+	margin: 1rem auto;
+}
+.allComments {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.description {
+	border: 1px solid black;
+	width: 70%;
+	margin: 1rem auto;
+	border-radius: 5px;
+}
+.userComment {
+	background: rgb(226, 221, 221);
+	color: rgb(49, 49, 49);
+	padding-bottom: 1rem;
+	text-align: left;
+}
+.userComment p {
+	margin-left: 0.5rem;
+}
+.deleteDiv {
+	text-align: right;
+	margin-top: -0.5rem;
+}
+.deleteDiv button {
+	background: none;
+	border-radius: 50%;
+	color: white;
+	border: 2px solid white;
+	cursor: pointer;
+	margin-top: -2rem;
+	margin-right: -1.5rem;
+	background: red;
+	padding-top: 6px;
+	padding-bottom: 3px;
+}
