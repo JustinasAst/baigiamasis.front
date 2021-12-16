@@ -8,7 +8,8 @@ Automobilių atsiliepimai is project where people can give feedback about cars.
 
 ## Why I create this project
 
-Very often people look for information about a car before buying it. And it is very important that people who had such a car can share their experiences. I do all the time, when I looking for a new used car.
+Very often people try to find information before buying used car.
+i do it often. So I create this site where people can leave feedback about cars which they used.
 
 ## ToDo
 
@@ -41,9 +42,8 @@ Very often people look for information about a car before buying it. And it is v
 
 ## How to use?
 
-User can scan and read comment whithout registration, but if he want to write comment, he need to registrate and
-logged in. User can another users comments, but delete just only own.
-Note: Simple user can't add new cars. Add cars can just user with
+User can read comment whithout registration, but if he want to write comment, he need to registrate. User can read another users comments. Also user can delete own comments.
+Note: Simple user can't add any new cars. Add cars can user with
 permission.
 
 ## Credits
