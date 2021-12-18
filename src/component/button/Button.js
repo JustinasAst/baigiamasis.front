@@ -1,6 +1,8 @@
 import React from 'react';
 import * as S from './StyleButton';
 
+// This button componet is experiment. I just wanted to create something unusual. Usually I never used switch to create button component. It is not necessary.
+
 const Button = ({ children, style, type, handleClick }) => {
 	let background, text, border;
 	switch (style) {
